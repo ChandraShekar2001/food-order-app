@@ -1,0 +1,49 @@
+.Container {
+  margin-top: 7%;
+}
+
+.container1{
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 1%
+}
+
+.heading {
+  font-size: 2rem;
+  margin: 1% 10%;
+  margin-top: 5%;
+  padding: 0.1em;
+}
+
+.line {
+  border-bottom: 1px solid black;
+  width: 25%;
+}
+
+.orders-list {
+  /* border: 1px solid black; */
+  transition: all 0.5s ease;
+  padding: 1.5em;
+  border-radius: 6px;
+  background-color: #fffefe;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;}
+
+
+details summary{
+    cursor: pointer;
+}
+
+details[open] summary ~ * {
+  animation: sweep 0.5s ease;
+}
+
+@keyframes sweep {
+  0% {
+    opacity: 0;
+    transform: translateX(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}

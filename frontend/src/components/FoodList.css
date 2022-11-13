@@ -1,0 +1,24 @@
+.Container{
+    margin-top:7%;
+    /* border: 1px solid black; */
+
+}
+
+.fooditems{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 1% 7%;
+}
+
+.heading{
+    font-size: 2rem;
+    margin: 1% 9%;
+    margin-top: 5%;
+    padding: 0.1em
+}
+
+.line{
+    border-bottom: 1px solid black;
+    width: 25%;
+}

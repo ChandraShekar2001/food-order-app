@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Poppins';
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    /* top: 10%; */
+    border: 1px solid rgb(78, 78, 78);
+    transition: all 0.5s;
+    margin-right: 1%;
+}
+
+main {
+    width: 100%;
+    padding: 1%;
+}
+
+.sidebar {
+    color: #fff;
+    background: rgb(73, 72, 72);
+    height: 100vh;
+    width: 28%;
+    top: 5%;
+    transition: all 0.5s;
+}
+
+.top_section {
+    display: flex;
+    align-items: center;
+    padding: 10% 10%;
+    
+}
+
+.logo {
+    font-size:150%;
+    margin-right: 15px;
+    color:#efefef;
+}
+
+.bars {
+    display: flex;
+    cursor: pointer;
+    font-size:200%;
+    margin-left: 30%;
+    /* margin-top: 1%; */
+}
+
+.bars2 {
+    display: flex;
+    cursor: pointer;
+    font-size:200%;
+    margin-left: 10%;
+    margin-top: 25%;
+
+}
+
+.link {
+    color: #fff;
+    padding: 5% 15%;
+    /* gap: 5%; */
+    letter-spacing: 0.05em;
+    transition: all 0.5s;
+}
+
+.link:hover {
+    color: rgb(145, 249, 116);
+    transition: all 0.5s;
+}
+
+.iconTextLink{
+    display:flex;
+    flex-direction:row;
+    gap: 5%;
+}
+
+.active {
+    background: lightskyblue;
+    color: #000;
+}
+
+.Adminicon, .link_text {
+    font-size: 120%;
+    margin-left: 10%;
+}
+
+.bars :hover{
+    cursor: pointer;
+}
+
+.AdminIconClose{
+    padding: 5% 25%;
+    /* margin-right: 50%; */
+}
